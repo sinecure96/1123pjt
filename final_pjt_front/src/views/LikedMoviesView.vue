@@ -2,7 +2,10 @@
   <div>
     <hr><br>
     <p style="font-size:20px;">내가 좋아하는 영화</p>
-    <MovieList :movies="liked_movies" />
+    <br>
+    <div>
+      <MovieList :movies="liked_movies" />
+    </div>
   </div>
 </template>
 
